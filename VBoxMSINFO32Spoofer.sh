@@ -16,7 +16,7 @@ vboxmanage setextradata "Windows 10" "VBoxInternal/Devices/pcbios/0/Config/DmiSy
 vboxmanage setextradata "Windows 10" "VBoxInternal/Devices/pcbios/0/Config/DmiSystemUuid" "d18cce0e-44f9-4a74-808c-ff8ff99889da"
 vboxmanage setextradata "Windows 10" "VBoxInternal/Devices/pcbios/0/Config/DmiBIOSVendor" "HP"
 vboxmanage setextradata "Windows 10" "VBoxInternal/Devices/pcbios/0/Config/DmiBIOSVersion" "string:$var2"
-vboxmanage setextradata "Windows 10" "VBoxInternal/Devices/pcbios/0/Config/DmiBIOSReleaseDate" "%SYSdate%"
+vboxmanage setextradata "Windows 10" "VBoxInternal/Devices/pcbios/0/Config/DmiBIOSReleaseDate" "16/3/2015"
 vboxmanage setextradata "Windows 10" "VBoxInternal/Devices/pcbios/0/Config/DmiBoardVendor" "HP"
 vboxmanage setextradata "Windows 10" "VBoxInternal/Devices/pcbios/0/Config/DmiBoardProduct" "ENVY dv7"
 vboxmanage setextradata "Windows 10" "VBoxInternal/Devices/pcbios/0/Config/DmiBoardVersion" "string:$var3"
