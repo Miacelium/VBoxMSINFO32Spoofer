@@ -1,6 +1,7 @@
 #!/bin/bash
 
-VMName="!!!ENTER VM NAME HERE!!!"
+echo "Enter the name of your VM: "
+read VMName
 
 echo "Bios:"
 BiosReleaseDate=`sudo dmidecode -t0 | grep Date  | cut -d: -f2`
