@@ -7,7 +7,7 @@ Description: This is a bash script changing the MSINFO32 of a Windows Virtual Ma
 How-To:
 
 1. Poweroff the Virtual Machine.
-2. Edit the script to have the name of your Virtual Machine.
-3. Make the script executable with "chmod +x VBoxMSINFO32Spoofer.sh"
-4. Execute the script with "./VBoxMSINFO32Spoofer.sh"
+2. Make the script executable with "chmod +x VBoxMSINFO32Spoofer.sh"
+3. Execute the script with "./VBoxMSINFO32Spoofer.sh"
+4. Enter the VM's name as the script asks you to.
 5. Start the VM and check if it successfully changed the MSINFO32
